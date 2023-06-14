@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can check out the project at https://lios67.github.io/GitHub-Explorer/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
