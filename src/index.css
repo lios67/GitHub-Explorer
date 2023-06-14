@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #00246B;
+  background: #8AB6F9;
+}
+
+.github-explorer-heading {
+  color: #00246B;
+}
+
+.switch {
+  color: #00246B;
+  padding-bottom: 10px;
+}
+
+.switch-org {
+  color: #00246B;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.switch-user{
+  color: #00246B;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  color: #00246B;
+  background: #CADCFC;
+}
+input[type="text"]::placeholder {
+  color: #00246B;
+}
+
+button {
+  color: #00246B;
+  background: #CADCFC;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.scrollable-box {
+  max-height: 350px;
+  max-width: 800px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #CADCFC;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
